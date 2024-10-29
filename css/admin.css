@@ -1,0 +1,49 @@
+#bfaqdiv-submit .inside {
+	margin: 0;
+	padding: 0;
+}
+.faq-table {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.faq-table tbody tr {
+	cursor: move;
+}
+.faq-table tbody tr:nth-child(even) {
+	background-color: #fff;
+}
+
+.faq-table .th-order {
+	width: 10%;
+}
+.faq-table .order {
+	text-align: right;
+}
+
+.faq-table .th-content {
+	width: 70%;
+}
+.faq-table .content textarea,
+.faq-table .content input {
+	width: 100%;
+
+}
+
+.faq-table .th-operation {
+	width: 20%;
+}
+
+@media screen and (max-width: 782px) {
+	#bfaqdiv .faq-table td {
+		display: table-cell;
+	}
+}
+
+#bfaqdiv .add-row-wrapper {
+	text-align: right;
+}
+
+.alternate, .striped>tbody>:nth-child(odd), ul.striped>:nth-child(odd) {
+	background-color: #f9f9f9;
+}

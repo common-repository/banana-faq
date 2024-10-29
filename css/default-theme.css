@@ -1,0 +1,52 @@
+.bfaq-faq-tabs .bfaq-tabs {
+	margin: 0;
+	padding: 0;
+}
+
+.bfaq-faq-tabs .bfaq-tab {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.bfaq-faq-tabs .bfaq-tab a {
+	border: none;
+	background: #efefef;
+	display: block;
+	margin: 0 10px 10px 0;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.bfaq-faq-tabs .bfaq-tab.active a {
+	background: #3f3f3f;
+	color: #fff;
+}
+
+.bfaq-faq-tabs .bfaq-faqs dt {
+	background: #efefef url( ../image/arrow-right.png ) no-repeat 98% center;
+	padding: 10px 2em 10px 1em;
+	margin-bottom: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.bfaq-faq-tabs .bfaq-faqs dt.close {
+	background: #efefef url( ../image/arrow-up.png ) no-repeat 98% center;
+}
+
+.bfaq-faq-tabs .bfaq-faqs dt:before {
+	content: 'Q. ';
+}
+
+.bfaq-faq-tabs .bfaq-faqs dd {
+	display: none;
+	padding: 0 10px;
+	padding-left: 2.5em;
+	margin: 0 0 30px;
+	text-indent: -1.3em;
+}
+
+.bfaq-faq-tabs .bfaq-faqs dd:before {
+	content: 'A. ';
+}
